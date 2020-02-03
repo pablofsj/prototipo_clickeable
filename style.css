@@ -1,3 +1,6 @@
+.col-lg-12,.col-m-12{
+  padding: 0;
+}
 .navbar{
   width: 100%;
 }
@@ -17,6 +20,14 @@
   background-size: cover;
   color: white;
   font-size: x-large;
+}
+.contenedor{
+  padding: 20px;
+}
+.carousel-container{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
 }
 .carousel{
   padding: 0;
@@ -39,4 +50,92 @@
 .tennis{
   background-image: url("img/tennis.jpeg");
   background-position-y: 40%;
+}
+.col-md-4{
+  height: 408px;
+  margin-bottom: 20px;
+}
+.col-md-4:hover{
+  border-bottom: 5px solid rgba(0, 0, 0, 0.473);
+}
+.hombre{
+  background-image: url("img/hombre.jpeg");
+  background-size: 190%;
+  background-position-x: 92%;
+  background-position-y: 18%;
+}
+.hombre:hover{
+  background-size: 200%;
+  background-position-x: 90%;
+}
+.mujer{
+  background-image: url("img/mujer.jpeg");
+  background-size: 140%;
+}
+.mujer:hover{
+  background-size: 150%;
+  background-position-x: 5%;
+}
+.nino{
+  background-image: url("img/nino.jpeg");
+  background-size: cover;
+}
+.nino:hover{
+  background-size: 110%;
+}
+.botonround{
+  border-radius: 30px;
+  margin: 30px;
+  font-weight: bolder;
+}
+.jumbotron{
+  padding: 40px;
+}
+.mailjumbo{
+  position: relative;
+  top: 20px;
+}
+.card-footer{
+  height: 70px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-top: 0;
+  width:100%;
+}
+.card ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  padding-bottom: 40px;
+  
+}
+h5{
+  font-size: 15px;
+  font-weight: bolder;
+}
+.card ul a{
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+  font-size: 14px;
+}
+.card ul a:hover{
+  color: black;
+}
+
+.footer{
+  padding-bottom: 40px;
+}
+.footer .card{
+  border: 0;
+  
+}
+.footer .card-header{
+  background-color: white;
+}
+.footer2{
+  border-top: 1px solid rgba(0,0,0,.125);
+  padding-top: 20px;
+  color: rgb(226, 226, 226);
+  font-size: 14px;
+  margin-bottom: 100px;
 }
